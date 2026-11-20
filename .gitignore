@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and local cache folders
+.cache/
+.temp/
+**/.cache/
+**/.temp/
+
+# YOLO model weights (auto-downloaded on first run)
+*.pt
+
+# Snapshot alert images (ignore images, keep directory)
+**/alerts/*.jpg
+**/alerts/*.jpeg
+**/alerts/*.png
+!**/alerts/.gitkeep
